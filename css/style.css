@@ -1,0 +1,38 @@
+body{
+	background-color: #f1f2f6;
+}
+#ConnectButton{
+	background-color: #ff7675;
+	color: white;
+}
+#SousTitreConnexionForm{
+	color: #ff7675;
+}
+#TitreConnexionForm{
+	color: #ff7675;
+}
+#PasswordConnexionForm{
+	color: #ff7675;
+}
+#PasswordConnexionForm:hover{
+	color: #f1f2f6;
+}
+#NomConnexionForm{
+	color: #ff7675;
+}
+#NomConnexionForm:hover{
+	color: #f1f2f6;
+}
+#TitrePrincipalConnexion{
+	color: #ff7675;
+	font-family: The Quick Brown;
+}
+@media only screen and (max-width: 400px){
+    #AffichageGrandEcran{
+      display: none;
+  	}
+}
+#FooterConnexion{
+	color: #ff7675; 
+	font-family: Verdana;
+}
