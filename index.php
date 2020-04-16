@@ -111,21 +111,29 @@ if(!isset($_SESSION['mdp'])){
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
 	      <div class="modal-header">
-	        <h5 class="modal-title" id="exampleModalLabel">Modal à configurer (Pas fini)</h5>
+	        <h5 class="modal-title" id="exampleModalLabel">Publier une ressource (ex : exercice)</h5>
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 	          <span aria-hidden="true">&times;</span>
 	        </button>
 	      </div>
 	      <div class="modal-body">
-	        ...
+	      	<!-- Formulaire pour bulier la ressource -->
+	      	<form>
+			  <div class="form-group">
+			    <div class="form-group">
+				    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ecrivez ici..."></textarea>
+  				</div>
+			</form>
+			<!-- Fin Formulaire pour bulier la ressource -->
 	      </div>
 	      <div class="modal-footer">
-	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-	        <button type="button" class="btn btn-primary">Save changes</button>
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+	        <button type="button" class="btn btn" style="background-color: #ff7675; color: white;">Publier</button>
 	      </div>
 	    </div>
 	  </div>
 	</div>
+	
 	<!-- Fin Modal publier ressources-->
 </body>
 </html>
