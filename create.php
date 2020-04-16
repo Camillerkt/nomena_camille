@@ -36,9 +36,9 @@
 
 						
 
-						<div class="list-item" draggable="true">List item 1</div>
-						<div class="list-item" draggable="true">List item 2</div>
-						<div class="list-item" draggable="true">List item 3</div>
+						<div class="list-item" draggable="true">Exercice 1</div>
+						<div class="list-item" draggable="true">Exercice 2</div>
+						<div class="list-item" draggable="true">Exercice 3</div>
 					</div>
 					<!-- Fin Premiere colonne -->
 					<!-- Deuxième colonne -->
@@ -46,6 +46,10 @@
 						<div class="form-group">
 						    <label for="exampleFormControlTextarea1">Votre cours :</label>
 						    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ecrivez ici ..."></textarea>
+						    <br/>
+						    <div align="center">
+						    <button type="button" class="btn btn-danger">Publier</button>
+							</div>
   						</div>
 					</div>
 					<!-- Fin deuxième colonne -->
