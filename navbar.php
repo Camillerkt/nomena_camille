@@ -8,10 +8,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#" style="color: white;"><i class="fa fa-sign-out" aria-hidden="true"></i>  Se déconnecter</a>
+        <a class="nav-link" href="logout.php" style="color: white;"><i class="fa fa-sign-out" aria-hidden="true"></i>  Se déconnecter</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#" style="color: white;"><i class="fa fa-user" aria-hidden="true"></i>  Mon espace de travail</a>
+        <a class="nav-link" href="profile.php" style="color: white;"><i class="fa fa-user" aria-hidden="true"></i>  Mon espace de travail</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#" style="color: white; background-color: #c0392b;"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>  Créer un cours</a>
