@@ -1,6 +1,7 @@
 <?php 
+/*
 include 'database.php'; 
-/* A ajouter après avir fini le design 
+A ajouter après avir fini le design : 
 if(!isset($_SESSION['mdp'])){
 	header('Location: login.php');
 }
