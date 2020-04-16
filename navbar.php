@@ -14,7 +14,7 @@
         <a class="nav-link" href="profile.php" style="color: white;"><i class="fa fa-user" aria-hidden="true"></i>  Mon espace de travail</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" style="color: white; background-color: #c0392b;"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>  Créer un cours</a>
+        <a class="nav-link" href="create.php" style="color: white; background-color: #c0392b;"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>  Créer un cours</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#" style="color: white;" data-toggle="modal" data-target="#Calculatrice"><i class="fa fa-calculator" aria-hidden="true"></i>  Calculatrice</a>

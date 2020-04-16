@@ -38,7 +38,7 @@ if(!isset($_SESSION['mdp'])){
 		    	<div class="card">
 		    		<div class="card-body">
 		    			<div class="row">
-			    			<div class="col-md-7 col-xs-12"><img src="images/female-user-testpng" height="60"> Publier des ressources pédagogiques !</div>
+			    			<div class="col-md-7 col-xs-12"><img src="images/female-user-test.png" height="60"> Publier des ressources pédagogiques !</div>
 	    					<div class="col-xs-12 col-md-4"><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Publier une ressource mathématique</button></div>
 			    		</div>
 		    		</div>
@@ -133,7 +133,7 @@ if(!isset($_SESSION['mdp'])){
 	    </div>
 	  </div>
 	</div>
-	
+
 	<!-- Fin Modal publier ressources-->
 </body>
 </html>
