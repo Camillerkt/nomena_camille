@@ -26,7 +26,7 @@ if(!isset($_SESSION['mdp'])){
 	<div class="container">
 		<!-- Message du haut pour créer un cours -->
 		<div class="alert alert-danger alert-dismissible fade show" role="alert">
-			Créez votre propre cours dès maintenant : <a href="" style="text-decoration: none; color: #000"><b><i class="fa fa-play" aria-hidden="true"></i>  Commencer !</b></a>
+			Créez votre propre cours dès maintenant : <a href="create.php" style="text-decoration: none; color: #000"><b><i class="fa fa-play" aria-hidden="true"></i>  Commencer !</b></a>
   			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
     		<span aria-hidden="true">&times;</span>
   			</button>
