@@ -24,14 +24,14 @@ if(!isset($_SESSION['mdp'])){
 	<!-- Saut de ligne pour bien placer les éléments de la page -->
 	<!-- Colonnes -->
 	<div class="container">
-		<!-- Message du haut pour créer un cours -->
+		<!-- Message du haut pour créer un séquence -->
 		<div class="alert alert-danger alert-dismissible fade show" role="alert">
-			Créez votre propre cours dès maintenant : <a href="create.php" style="text-decoration: none; color: #000"><b><i class="fa fa-play" aria-hidden="true"></i>  Commencer !</b></a>
+			Créez votre propre séquence dès maintenant : <a href="create.php" style="text-decoration: none; color: #000"><b><i class="fa fa-play" aria-hidden="true"></i>  Commencer !</b></a>
   			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
     		<span aria-hidden="true">&times;</span>
   			</button>
 		</div>
-		<!-- Fin Message du haut pour créer un cours -->
+		<!-- Fin Message du haut pour créer un séquence -->
 	  	<div class="row">
 		    <!-- Première colonne (Principale = la plus grande) -->
 		    <div class="col-md col-xs-12 col-lg">
@@ -68,7 +68,7 @@ if(!isset($_SESSION['mdp'])){
 
 			    				<br/><br/>
 
-			    				<span class="tagsAccueilPubli"><i class="fa fa-file" aria-hidden="true"></i>  Classe 3ème, Maths, Proportionalité, Exercice, Cours, Autres critères</span>
+			    				<span class="tagsAccueilPubli"><i class="fa fa-file" aria-hidden="true"></i>  Classe 3ème, Maths, Proportionalité, Exercice, Séquence, Autres critères</span>
 
 			    				<hr/>
 			    				<!-- Bouton ça m'intéresse -->
