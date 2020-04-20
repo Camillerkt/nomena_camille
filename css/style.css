@@ -39,6 +39,15 @@ body{
 	color: #ff7675; 
 	font-family: Verdana;
 }
+
+
+#inscription_carte{
+	color: #ff7675; 
+}
+#SignUpButton{
+	background-color: #ff7675;
+	color: white;
+}
 /* Navbar php centre */
 .navbar{
 	background-color: #ff7675;
