@@ -8,7 +8,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="logout.php" style="color: white;"><i cslass="fa fa-sign-out" aria-hidden="true"></i>  Se déconnecter</a>
+        <a class="nav-link" href="back-office/logout.php" style="color: white;"><i cslass="fa fa-sign-out" aria-hidden="true"></i>  Se déconnecter</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="profile.php" style="color: white;"><i class="fa fa-user" aria-hidden="true"></i>  Mon espace de travail</a>
@@ -93,7 +93,7 @@
 
 
 
-<script type="text/javascript" src="calculate.js"></script>
+<script type="text/javascript" src="back-office/calculate.js"></script>
 <div class="modal fade" id="Calculatrice" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">

@@ -1,3 +1,9 @@
+<?php 
+include 'back-office/database.php';
+if(!isset($_SESSION['mdp'])){
+	header('Location: login.php');
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>

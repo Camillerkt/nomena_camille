@@ -1,5 +1,7 @@
 <?php 
-include 'database.php';
+if(isset($_POST['se_connecter'])){
+	include 'back-office/loginAction.php';
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -11,6 +13,9 @@ include 'database.php';
 </head>
 <body><br/><br/>
 	<div class="container">
+		<!-- afficher une erreur de connexion -->
+		<?php include 'back-office/erreurDeConnexion.php'; ?>
+		<!-- fin de l'affichage de l'erreur de connexion -->
 		<div class="row">
 			<!-- Code présentation -->
 			<div class="col-md-8 col-xs-12 col-lg-8">
@@ -34,7 +39,7 @@ include 'database.php';
 						            <h2 class="text-center" id="TitreConnexionForm">Connectez-vous !</h2>
 						            <hr/>
 						            <p id="SousTitreConnexionForm"><i class="fa fa-calculator" aria-hidden="true"></i>  Devenez membre du meilleur réseau social pour profs de Maths !</p>
-						            <form id="register-form" role="form" autocomplete="off" class="form" method="POST" action="back-office/loginAction.php">
+						            <form id="register-form" role="form" autocomplete="off" class="form" method="POST" action="">
 						                <div class="form-group">
 						                	<div class="input-group">
 						                        <input id="NomConnexionForm" name="nom_user" placeholder="Nom d'utilisateur" class="form-control"  type="text">

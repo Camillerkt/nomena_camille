@@ -1,9 +1,10 @@
 <?php
+include 'database.php';
 if(isset($_POST['se_connecter'])){
 	if(!empty($_POST['nom_user']) AND !empty($_POST['mdp'])){
 		$nom_user = htmlspecialchars($_POST['nom_user']);
 		$mdp = sha1($_POST['mdp']);
-		$look_if_user_in_db = $bdd->prepare('SELECT * FROM users WHERE nom = ? nom_user = ? AND mdp = ? ');
+		$look_if_user_in_db = $bdd->prepare('SELECT * FROM users WHERE nom_user = ? AND mdp = ? ');
 		$look_if_user_in_db->execute(array($nom_user, $mdp));
 		if($look_if_user_in_db->rowCount() == 1){
 			$les_infos_de_l_user = $look_if_user_in_db->fetch();
@@ -14,10 +15,10 @@ if(isset($_POST['se_connecter'])){
 			$_SESSION['nom_user'] = $les_infos_de_l_user['nom_user'];
 			header('Location: index.php');
 		}else{
-			//
+			$error = "Malheureusement, votre nom d'utilisateur ou mot de passe est incorrect...";
 		}
 	}else{
-		//
+		$error = "Nous vous prions de bien vouloir compléter tous les champs demandés...";
 	}
 }
 ?>

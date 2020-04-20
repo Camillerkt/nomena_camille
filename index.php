@@ -1,11 +1,8 @@
 <?php 
-/*
-include 'database.php'; 
-A ajouter après avir fini le design : 
+include 'back-office/database.php';
 if(!isset($_SESSION['mdp'])){
 	header('Location: login.php');
 }
-*/
 ?>
 <!DOCTYPE html>
 <html>

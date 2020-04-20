@@ -1,3 +1,9 @@
+<?php 
+include 'back-office/database.php';
+if(!isset($_SESSION['mdp'])){
+	header('Location: login.php');
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -65,6 +71,6 @@
 			</div>
 		</div>
 	</div>
-	<script src="dragndrop.js"></script>
+	<script src="back-office/dragndrop.js"></script>
 </body>
 </html>
